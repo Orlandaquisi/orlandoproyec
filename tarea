@@ -1,1 +1,54 @@
+using System;
+using System.collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threadin.Tasks;
 
+
+namespace menuopciones
+{
+    class program
+    {
+        static void Main (string[] args)
+        {
+            int opcion = 0; 
+            do
+            {
+                console.writeLine("Menu de ccomida y bebida");
+                console.writeLine("\n"+ 
+                "\n 1.- Gorditas" +
+                "\n 2.- Tacos al pastor " +
+                "\n 3.- Agua de limon" +
+                "\n 4.- cocacola"+
+                "\n 5.-salir \n");
+                console.writeLine("digita una opcion:");
+                opcion = convert.ToInt32(console.ReadLine());
+                switch (opcion)
+                {
+                    case 1:
+                    console.writeLine("GORDITAS");
+                    breaak;
+                    case 2:
+                    console.writeLine("TACOS AL PASTOR");
+                    breaak;
+                    case 3:
+                    console.writeLine("AGUA DE LIMON");
+                    breaak;
+                    case 4:
+                    console.writeLine("COCACOLA");
+                    breaak;
+                    case 5:
+                    console.writeLine("saliendo de el programa");
+                    breaak;
+                    console.writeLine("opcion incorrecta opciones disponibles del 1-5");
+                    breaak;
+                    default:
+                }
+                console.Readkey();
+            } while (opcion != 3);
+       
+        } 
+     
+    }
+  
+}
